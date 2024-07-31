@@ -1,0 +1,36 @@
+{
+  "version": "1.0.0",
+  "name": "GBA Emul",
+  "description": "GBA Emulator For KaiOS 2.5.x. Play *.gba Games",
+  "launch_path": "/index.html",
+  "icons": {
+    "56": "/icons/ic-56.png",
+    "112": "/icons/ic-112.png",
+    "128": "/icons/ic-128.png"
+  },
+  "fullscreen": true,
+  "developer": {
+    "name": "Shifat100"
+  },
+  "permissions": {
+    "device-storage:sdcard": {
+      "access": "readwrite"
+    },
+    "device-storage:sdcard1": {
+      "access": "readwrite"
+    }
+  },
+  "dependencies": {
+    "ads-sdk": "1.5.8"
+  },
+  "locales": {
+    "en-US": {
+      "name": "GBA Emul",
+      "subtitle": "Gameboy Advance Emulator",
+      "description": "GBA Emulator For KaiOS 2.5.x. Play *.gba Games"
+    }
+  },
+  "default_locale": "en-US",
+  "cursor": false,
+  "type": "web"
+}
